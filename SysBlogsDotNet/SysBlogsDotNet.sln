@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SysBlogs_Autor", "SysBlogs_
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SysBlogs_Blogs", "SysBlogs_Blogs\SysBlogs_Blogs.csproj", "{9267CC0F-6BB0-4DCC-829E-0904F0B18237}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SysBlogs_Comentario", "SysBlogs_Comentario\SysBlogs_Comentario.csproj", "{B91680E4-8B9D-4514-8EF8-9A368D3DB1C7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{9267CC0F-6BB0-4DCC-829E-0904F0B18237}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9267CC0F-6BB0-4DCC-829E-0904F0B18237}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9267CC0F-6BB0-4DCC-829E-0904F0B18237}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B91680E4-8B9D-4514-8EF8-9A368D3DB1C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B91680E4-8B9D-4514-8EF8-9A368D3DB1C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B91680E4-8B9D-4514-8EF8-9A368D3DB1C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B91680E4-8B9D-4514-8EF8-9A368D3DB1C7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

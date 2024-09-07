@@ -13,6 +13,7 @@
   <ItemGroup>
     <ProjectReference Include="..\SysBlogs_Autor\SysBlogs_Autor.csproj" />
     <ProjectReference Include="..\SysBlogs_Blogs\SysBlogs_Blogs.csproj" />
+    <ProjectReference Include="..\SysBlogs_Comentario\SysBlogs_Comentario.csproj" />
   </ItemGroup>
 
 </Project>
