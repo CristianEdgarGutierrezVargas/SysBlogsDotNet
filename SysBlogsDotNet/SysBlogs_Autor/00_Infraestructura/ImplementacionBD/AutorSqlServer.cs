@@ -108,7 +108,7 @@ namespace SysBlogs_Autor.Infraestructura.ImplementacionBD
                                     ,[USUARIO_MODIF]
                                     ,[FECHA_INSERT]
                                     ,[FECHA_MODIF]
-                              FROM [BISAEXAM].[dbo].[AUTOR]
+                              FROM [dbo].[AUTOR]
                               WHERE ID="+ _id.ToString();
             DataSet resultado = Ejecutar(query);
             var response = resultado.Tables["Results"];
@@ -141,7 +141,7 @@ namespace SysBlogs_Autor.Infraestructura.ImplementacionBD
                                     ,[USUARIO_MODIF]
                                     ,[FECHA_INSERT]
                                     ,[FECHA_MODIF]
-                              FROM [BISAEXAM].[dbo].[AUTOR]";
+                              FROM [dbo].[AUTOR]";
             DataSet resultado = Ejecutar(query);
             var response = resultado.Tables["Results"];
 

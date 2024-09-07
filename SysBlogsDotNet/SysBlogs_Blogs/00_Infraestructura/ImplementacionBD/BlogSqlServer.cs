@@ -70,7 +70,7 @@ namespace SysBlogs_Blogs.Infraestructura.ImplementacionBD
                                 ,NULL
                                 ,GETDATE()
                                 ,NULL
-                              FROM [BISAEXAM].[dbo].[BLOG]
+                              FROM [dbo].[BLOG]
                               WHERE ID=" + _blog.ID.ToString();
             DataSet resultado = Ejecutar(query);
 
@@ -142,7 +142,7 @@ namespace SysBlogs_Blogs.Infraestructura.ImplementacionBD
                                       ,[USUARIO_MODIF]
                                       ,[FECHA_INSERT]
                                       ,[FECHA_MODIF]
-                              FROM [BISAEXAM].[dbo].[BLOG]
+                              FROM [dbo].[BLOG]
                               WHERE ID=" + ID.ToString();
             DataSet resultado = Ejecutar(query);
             var response = resultado.Tables["Results"];
@@ -175,7 +175,7 @@ namespace SysBlogs_Blogs.Infraestructura.ImplementacionBD
                                       ,[USUARIO_MODIF]
                                       ,[FECHA_INSERT]
                                       ,[FECHA_MODIF]
-                              FROM [BISAEXAM].[dbo].[BLOG]";
+                              FROM [dbo].[BLOG]";
             DataSet resultado = Ejecutar(query);
             var response = resultado.Tables["Results"];
 
